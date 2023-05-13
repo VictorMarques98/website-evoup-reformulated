@@ -1,0 +1,41 @@
+.sum-intro {
+  padding: 10rem 0;
+}
+
+.sum-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.sum-service-container {
+  display: flex;
+  gap: 1.25rem;
+  flex: 1;
+}
+
+.sum-services-icon {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  color: #a29826;
+  font-weight: 700;
+}
+
+.sum-services-icon span:nth-child(2) {
+  width: 3.125rem;
+  height: 0.125rem;
+  background-color: #a29826;
+  transform: translateY(0.5rem);
+}
+
+.sum-services-content h4 {
+  font-size: 1.875rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.sum-services-content span {
+  font-size: 1rem;
+  color: #cccccc;
+  line-height: 1.8rem;
+}

@@ -1,0 +1,35 @@
+.link-primary {
+  background: transparent;
+  border: solid 1px #676565;
+  color: #efefef;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.link-primary:hover {
+  background: #cbcbcb;
+  color: #000;
+}
+
+.link-secondary {
+    background-image: linear-gradient(to right, #c39c01 0%, #a57e00  51%, #d49503  100%);
+    border-radius: 5px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #efefef;            
+    display: block;
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    font-weight: 600;
+}
+
+.link-secondary:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

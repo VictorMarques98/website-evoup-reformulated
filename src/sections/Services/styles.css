@@ -1,0 +1,84 @@
+.services-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  background-image: linear-gradient(#000000, #000000ad, #000000 ), url(https://wallpapercrafter.com/sizes/3840x2160/247883-a-group-of-people-brainstorming-over-a-laptop-and-.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.services-container {
+  display: flex;
+  gap: 32px;
+  margin-top: 80px;
+}
+
+.services-section h1 {
+  font-size: 1.875rem;
+  color: #fff;
+  text-align: left;
+}
+
+.services-section h1::before {
+  display: inline-block;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #eaae3b;
+  margin-right: 10px;
+  transform: translateY(-8px)
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 35%;
+  padding: 60px 40px;
+  position: relative;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.service-icon {
+  height: 5rem;
+  width: 5rem;
+  background-color: black;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: absolute;
+  top: -22px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.service-content {
+  text-align: center;
+}
+
+.service-content h4 {
+  font-size: 1.25rem;
+  color: #eaae3b;
+  font-weight: 500;
+  margin: 1.875rem 0;
+}
+
+.service-content span {
+  color: #d2d2d2;
+  line-height: 2;
+  font-size: 14px;
+}

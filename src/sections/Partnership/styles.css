@@ -1,0 +1,40 @@
+.partnership-section {
+  border: solid 1px red;
+  color: white;
+}
+
+.partnership-container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  padding: 5rem 0;
+}
+
+.partnership-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1;
+}
+
+.partnership-text a {
+  text-align: center;
+  max-width: 300px;
+  margin-top: 24px;
+}
+
+.partnership-title {
+  font-size: 42px;
+}
+
+.partnership-subtitle {
+  font-size: 16px;
+  color: #cccccc;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.partnership-image {
+  flex: 1;
+  max-width: 40%;
+}
